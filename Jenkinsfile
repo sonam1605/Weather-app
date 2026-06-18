@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/sonam1605/Weather-app.git'
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 sh 'npm install'
@@ -23,8 +17,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo 'No test cases configured'
-                // sh 'npm test'
+                echo 'No tests yet'
             }
         }
 
