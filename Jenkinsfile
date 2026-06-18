@@ -5,7 +5,7 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh 'npm install'
+                sh 'npm install --no-audit --no-fund --legacy-peer-deps --timeout=600000'
             }
         }
 
