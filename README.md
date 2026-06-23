@@ -39,3 +39,8 @@ docker run -d -p 5173:5173 --name weather-app weather-app
 
 Application deployed on AWS EC2 using Docker and Jenkins Pipeline.
 
+## Live Demo
+
+http://18.206.180.237:5173
+
+Note: This is a demo environment hosted on AWS EC2 and may not be available 24/7.
